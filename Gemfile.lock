@@ -1,11 +1,12 @@
 GIT
   remote: http://github.com/isotope11/isotope_contacts.git
-  revision: e972ddd9525a834c6369cf35f64bb2f81e9e1274
+  revision: 54e75373ce69bd8bfe83800345795c76bcc1f0e6
   specs:
     isotope_contacts (0.0.1)
       bootstrap-sass
       formtastic-bootstrap
       haml
+      meta_search
       rails (~> 3.1.3)
 
 GEM
@@ -70,9 +71,16 @@ GEM
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    meta_search (1.1.1)
+      actionpack (~> 3.1.0)
+      activerecord (~> 3.1.0)
+      activesupport (~> 3.1.0)
+      polyamorous (~> 0.5.0)
     mime-types (1.17.2)
     multi_json (1.0.4)
     pg (0.12.2)
+    polyamorous (0.5.0)
+      activerecord (~> 3.0)
     polyglot (0.3.3)
     rack (1.3.6)
     rack-cache (1.1)
