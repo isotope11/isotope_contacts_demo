@@ -1,6 +1,6 @@
 GIT
   remote: http://github.com/isotope11/isotope_contacts.git
-  revision: 54e75373ce69bd8bfe83800345795c76bcc1f0e6
+  revision: 45f753071909badb75fb545f84dc119e9283bb7a
   specs:
     isotope_contacts (0.0.1)
       bootstrap-sass
